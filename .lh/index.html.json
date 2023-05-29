@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 3,
+            "activePatchIndex": 4,
             "patches": [
                 {
                     "date": 1685316840260,
@@ -20,6 +20,10 @@
                 {
                     "date": 1685326970463,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \tFree for personal and commercial use under the CCA 3.0 license (html5up.net/license)\r\n -->\r\n <html>\r\n \t<head>\r\n-\t\t<title>Victoria Nguyen's Portfolio</title>\r\n+\t\t<title>Victoria Nguyen's Portfolio </title>\r\n \t\t<meta charset=\"utf-8\" />\r\n \t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, user-scalable=no\" />\r\n \t\t<link rel=\"stylesheet\" href=\"assets/css/main.css\" />\r\n \t\t<link rel=\"icon\" href=\"/images/woman-technologist-light-skin-tone_1f469-1f3fb-200d-1f4bb.png\">\r\n"
+                },
+                {
+                    "date": 1685327025314,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \tFree for personal and commercial use under the CCA 3.0 license (html5up.net/license)\r\n -->\r\n <html>\r\n \t<head>\r\n-\t\t<title>Victoria Nguyen's Portfolio </title>\r\n+\t\t<title>Victoria Nguyen's Portfolio</title>\r\n \t\t<meta charset=\"utf-8\" />\r\n \t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, user-scalable=no\" />\r\n \t\t<link rel=\"stylesheet\" href=\"assets/css/main.css\" />\r\n \t\t<link rel=\"icon\" href=\"/images/woman-technologist-light-skin-tone_1f469-1f3fb-200d-1f4bb.png\">\r\n"
                 }
             ],
             "date": 1685316840260,
