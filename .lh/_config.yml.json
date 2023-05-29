@@ -1,0 +1,26 @@
+{
+    "sourceFile": "_config.yml",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1685366668201,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1685366682998,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,4 @@\n+title: [The title of your site]\n+description: [A short description of your site's purpose]\n+\n theme: MINIMAL\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685366690544,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,4 @@\n+title: filler\n+description: portfolio\n+\n+theme: MINIMAL\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1685366668201,
+            "name": "Commit-0",
+            "content": "theme: MINIMAL"
+        }
+    ]
+}
