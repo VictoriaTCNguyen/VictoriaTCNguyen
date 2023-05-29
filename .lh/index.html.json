@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 13,
+            "activePatchIndex": 21,
             "patches": [
                 {
                     "date": 1685316840260,
@@ -60,6 +60,38 @@
                 {
                     "date": 1685359096987,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -167,9 +167,9 @@\n \t\t\t\t\t\t\t\tWhether I'm using spreadsheets to optimize my workout routine or using it to observe consumer habits, I love using data to enhance the way I look at the world.\r\n \t\t\t\t\t\t\t</p>\r\n \r\n \t\t\t\t\t\t\t<p>\r\n-\t\t\t\t\t\t\t\tOutside of data analytics, I love to spend time with my pets, travel, cook, discuss all things media, play video games,\r\n+\t\t\t\t\t\t\t\tOutside of data analytics, I love to travel, cook, discuss all things media, play video games,\r\n \t\t\t\t\t\t\t\t & live an active lifestyle. \r\n \t\t\t\t\t\t\t</p>\r\n \r\n \t\t\t\t\t\t</div>\r\n"
+                },
+                {
+                    "date": 1685365074889,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -113,9 +113,9 @@\n \t\t\t\t\t\t</div>\r\n \t\t\t\t\t</section>\r\n \r\n \r\n-\t\t\t\t<!-- Education -->\r\n+\t\t\t\t<!-- Education \r\n \t\t\t\t<section id=\"education\" class=\"three\">\r\n \t\t\t\t\t<div class=\"container\">\r\n \r\n \t\t\t\t\t\t<header>\r\n"
+                },
+                {
+                    "date": 1685365087534,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n \t\t\t\t\t\t<nav id=\"nav\">\r\n \t\t\t\t\t\t\t<ul>\r\n \t\t\t\t\t\t\t\t<li><a href=\"#top\" id=\"top-link\"><span class=\"icon solid fa-home\">Intro</span></a></li>\r\n \t\t\t\t\t\t\t\t<li><a href=\"#portfolio\" id=\"portfolio-link\"><span class=\"icon solid fa-th\">Portfolio</span></a></li>\r\n-\t\t\t\t\t\t\t\t<li><a href=\"#education\" id=\"education-link\"><span class=\"icon solid fa-graduation-cap\">Education</span></a></li>\r\n+\t\t\t\t\t\t\t\t<<li><a href=\"#education\" id=\"education-link\"><span class=\"icon solid fa-graduation-cap\">Education</span></a></li>\r\n \t\t\t\t\t\t\t\t<li><a href=\"#about\" id=\"about-link\"><span class=\"icon solid fa-user\">About Me</span></a></li>\r\n \t\t\t\t\t\t\t\t<li><a href=\"#resume\" id=\"resume-link\"><span class=\"icon solid fa-paperclip\">Resume</span></a></li>\r\n \t\t\t\t\t\t\t\t<li><a href=\"#contact\" id=\"contact-link\"><span class=\"icon solid fa-envelope\">Contact</span></a></li>\r\n \t\t\t\t\t\t\t</ul>\r\n@@ -149,10 +149,10 @@\n \r\n \t\t\t\t\t</div>\r\n \t\t\t\t</section>\r\n \r\n+\t\t\t-->\r\n \r\n-\r\n \t\t\t\t<!-- About Me -->\r\n \t\t\t\t\t<section id=\"about\" class=\"three\">\r\n \t\t\t\t\t\t<div class=\"container\">\r\n \r\n"
+                },
+                {
+                    "date": 1685365094287,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n \t\t\t\t\t\t<nav id=\"nav\">\r\n \t\t\t\t\t\t\t<ul>\r\n \t\t\t\t\t\t\t\t<li><a href=\"#top\" id=\"top-link\"><span class=\"icon solid fa-home\">Intro</span></a></li>\r\n \t\t\t\t\t\t\t\t<li><a href=\"#portfolio\" id=\"portfolio-link\"><span class=\"icon solid fa-th\">Portfolio</span></a></li>\r\n-\t\t\t\t\t\t\t\t<<li><a href=\"#education\" id=\"education-link\"><span class=\"icon solid fa-graduation-cap\">Education</span></a></li>\r\n+\t\t\t\t\t\t\t\t<!-- <li><a href=\"#education\" id=\"education-link\"><span class=\"icon solid fa-graduation-cap\">Education</span></a></li> -->\r\n \t\t\t\t\t\t\t\t<li><a href=\"#about\" id=\"about-link\"><span class=\"icon solid fa-user\">About Me</span></a></li>\r\n \t\t\t\t\t\t\t\t<li><a href=\"#resume\" id=\"resume-link\"><span class=\"icon solid fa-paperclip\">Resume</span></a></li>\r\n \t\t\t\t\t\t\t\t<li><a href=\"#contact\" id=\"contact-link\"><span class=\"icon solid fa-envelope\">Contact</span></a></li>\r\n \t\t\t\t\t\t\t</ul>\r\n"
+                },
+                {
+                    "date": 1685365148169,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,9 +32,9 @@\n \t\t\t\t\t\t\t\t<li><a href=\"#top\" id=\"top-link\"><span class=\"icon solid fa-home\">Intro</span></a></li>\r\n \t\t\t\t\t\t\t\t<li><a href=\"#portfolio\" id=\"portfolio-link\"><span class=\"icon solid fa-th\">Portfolio</span></a></li>\r\n \t\t\t\t\t\t\t\t<!-- <li><a href=\"#education\" id=\"education-link\"><span class=\"icon solid fa-graduation-cap\">Education</span></a></li> -->\r\n \t\t\t\t\t\t\t\t<li><a href=\"#about\" id=\"about-link\"><span class=\"icon solid fa-user\">About Me</span></a></li>\r\n-\t\t\t\t\t\t\t\t<li><a href=\"#resume\" id=\"resume-link\"><span class=\"icon solid fa-paperclip\">Resume</span></a></li>\r\n+\r\n \t\t\t\t\t\t\t\t<li><a href=\"#contact\" id=\"contact-link\"><span class=\"icon solid fa-envelope\">Contact</span></a></li>\r\n \t\t\t\t\t\t\t</ul>\r\n \t\t\t\t\t\t</nav>\r\n \r\n"
+                },
+                {
+                    "date": 1685365162150,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,10 +31,10 @@\n \t\t\t\t\t\t\t<ul>\r\n \t\t\t\t\t\t\t\t<li><a href=\"#top\" id=\"top-link\"><span class=\"icon solid fa-home\">Intro</span></a></li>\r\n \t\t\t\t\t\t\t\t<li><a href=\"#portfolio\" id=\"portfolio-link\"><span class=\"icon solid fa-th\">Portfolio</span></a></li>\r\n \t\t\t\t\t\t\t\t<!-- <li><a href=\"#education\" id=\"education-link\"><span class=\"icon solid fa-graduation-cap\">Education</span></a></li> -->\r\n+\t\t\t\t\t\t\t\t<li><a href=\"#resume\" id=\"resume-link\"><span class=\"icon solid fa-paperclip\">Resume</span></a></li>\r\n \t\t\t\t\t\t\t\t<li><a href=\"#about\" id=\"about-link\"><span class=\"icon solid fa-user\">About Me</span></a></li>\r\n-\r\n \t\t\t\t\t\t\t\t<li><a href=\"#contact\" id=\"contact-link\"><span class=\"icon solid fa-envelope\">Contact</span></a></li>\r\n \t\t\t\t\t\t\t</ul>\r\n \t\t\t\t\t\t</nav>\r\n \r\n@@ -174,20 +174,8 @@\n \r\n \t\t\t\t\t\t</div>\r\n \t\t\t\t\t</section>\r\n \r\n-\t\t\t\t<!-- Resume -->\r\n-\t\t\t\t<section id=\"resume\" class=\"three\">\r\n-\t\t\t\t\t<div class=\"container\">\r\n-\r\n-\t\t\t\t\t\t<header>\r\n-\t\t\t\t\t\t\t<h2><a href=\"images/VictoriaNguyen_Resume_2023.pdf\" download>Click here to download my resume!</a></h2>\r\n-\t\t\t\t\t\t</header>\r\n-\r\n-\r\n-\t\t\t\t\t</div>\r\n-\t\t\t\t</section>\r\n-\r\n \t\t\t\t<!-- Contact -->\r\n \t\t\t\t\t<section id=\"contact\" class=\"four\">\r\n \t\t\t\t\t\t<div class=\"container\">\r\n \r\n"
+                },
+                {
+                    "date": 1685365168470,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -151,8 +151,19 @@\n \t\t\t\t</section>\r\n \r\n \t\t\t-->\r\n \r\n+\t\t\t\t\t\t\t<!-- Resume -->\r\n+\t\t\t\t<section id=\"resume\" class=\"three\">\r\n+\t\t\t\t\t<div class=\"container\">\r\n+\r\n+\t\t\t\t\t\t<header>\r\n+\t\t\t\t\t\t\t<h2><a href=\"images/VictoriaNguyen_Resume_2023.pdf\" download>Click here to download my resume!</a></h2>\r\n+\t\t\t\t\t\t</header>\r\n+\r\n+\r\n+\t\t\t\t\t</div>\r\n+\t\t\t\t</section>\r\n \t\t\t\t<!-- About Me -->\r\n \t\t\t\t\t<section id=\"about\" class=\"three\">\r\n \t\t\t\t\t\t<div class=\"container\">\r\n \r\n"
+                },
+                {
+                    "date": 1685365175255,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -151,19 +151,9 @@\n \t\t\t\t</section>\r\n \r\n \t\t\t-->\r\n \r\n-\t\t\t\t\t\t\t<!-- Resume -->\r\n-\t\t\t\t<section id=\"resume\" class=\"three\">\r\n-\t\t\t\t\t<div class=\"container\">\r\n \r\n-\t\t\t\t\t\t<header>\r\n-\t\t\t\t\t\t\t<h2><a href=\"images/VictoriaNguyen_Resume_2023.pdf\" download>Click here to download my resume!</a></h2>\r\n-\t\t\t\t\t\t</header>\r\n-\r\n-\r\n-\t\t\t\t\t</div>\r\n-\t\t\t\t</section>\r\n \t\t\t\t<!-- About Me -->\r\n \t\t\t\t\t<section id=\"about\" class=\"three\">\r\n \t\t\t\t\t\t<div class=\"container\">\r\n \r\n"
+                },
+                {
+                    "date": 1685365181221,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -151,9 +151,8 @@\n \t\t\t\t</section>\r\n \r\n \t\t\t-->\r\n \r\n-\r\n \t\t\t\r\n \t\t\t\t<!-- About Me -->\r\n \t\t\t\t\t<section id=\"about\" class=\"three\">\r\n \t\t\t\t\t\t<div class=\"container\">\r\n"
                 }
             ],
             "date": 1685316840260,
