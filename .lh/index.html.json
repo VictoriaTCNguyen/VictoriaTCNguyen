@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 5,
+            "activePatchIndex": 9,
             "patches": [
                 {
                     "date": 1685316840260,
@@ -28,6 +28,22 @@
                 {
                     "date": 1685327052308,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \tFree for personal and commercial use under the CCA 3.0 license (html5up.net/license)\r\n -->\r\n <html>\r\n \t<head>\r\n-\t\t<title>Victoria Nguyen's Portfolio</title>\r\n+\t\t<title>Victoria Nguyen's Portfolio </title>\r\n \t\t<meta charset=\"utf-8\" />\r\n \t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, user-scalable=no\" />\r\n \t\t<link rel=\"stylesheet\" href=\"assets/css/main.css\" />\r\n \t\t<link rel=\"icon\" href=\"/images/woman-technologist-light-skin-tone_1f469-1f3fb-200d-1f4bb.png\">\r\n"
+                },
+                {
+                    "date": 1685358918350,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -83,9 +83,9 @@\n \t\t\t\t\t\t\t\t<div class=\"col-6 col-12-mobile\">\r\n \t\t\t\t\t\t\t\t\t<article class=\"item\">\r\n \t\t\t\t\t\t\t\t\t\t<a href=\"portfolio_data_cleaning_with_python\" class=\"image fit\"><img src=\"images/istockphoto-1411855202-612x612.jpg\" alt=\"\" /></a>\r\n \t\t\t\t\t\t\t\t\t\t<header>\r\n-\t\t\t\t\t\t\t\t\t\t\t<h3>Data Cleaning with Python</h3>\r\n+\t\t\t\t\t\t\t\t\t\t\t<h3>Data Cleaning</h3>\r\n \t\t\t\t\t\t\t\t\t\t</header>\r\n \t\t\t\t\t\t\t\t\t</article>\r\n \t\t\t\t\t\t\t\t\t<article class=\"item\">\r\n \t\t\t\t\t\t\t\t\t\t<a href=\"#\" class=\"image fit\"><img src=\"images/choosing-healthy-unhealthy-food_52683-39406.avif\" alt=\"\" /></a>\r\n"
+                },
+                {
+                    "date": 1685358925160,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -83,9 +83,9 @@\n \t\t\t\t\t\t\t\t<div class=\"col-6 col-12-mobile\">\r\n \t\t\t\t\t\t\t\t\t<article class=\"item\">\r\n \t\t\t\t\t\t\t\t\t\t<a href=\"portfolio_data_cleaning_with_python\" class=\"image fit\"><img src=\"images/istockphoto-1411855202-612x612.jpg\" alt=\"\" /></a>\r\n \t\t\t\t\t\t\t\t\t\t<header>\r\n-\t\t\t\t\t\t\t\t\t\t\t<h3>Data Cleaning</h3>\r\n+\t\t\t\t\t\t\t\t\t\t\t<h3>Data Cleaning: Monster U.S. Jobs</h3>\r\n \t\t\t\t\t\t\t\t\t\t</header>\r\n \t\t\t\t\t\t\t\t\t</article>\r\n \t\t\t\t\t\t\t\t\t<article class=\"item\">\r\n \t\t\t\t\t\t\t\t\t\t<a href=\"#\" class=\"image fit\"><img src=\"images/choosing-healthy-unhealthy-food_52683-39406.avif\" alt=\"\" /></a>\r\n"
+                },
+                {
+                    "date": 1685358932918,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -89,9 +89,9 @@\n \t\t\t\t\t\t\t\t\t</article>\r\n \t\t\t\t\t\t\t\t\t<article class=\"item\">\r\n \t\t\t\t\t\t\t\t\t\t<a href=\"#\" class=\"image fit\"><img src=\"images/choosing-healthy-unhealthy-food_52683-39406.avif\" alt=\"\" /></a>\r\n \t\t\t\t\t\t\t\t\t\t<header>\r\n-\t\t\t\t\t\t\t\t\t\t\t<h3>Recipe Scraper in R</h3>\r\n+\t\t\t\t\t\t\t\t\t\t\t<h3>Recipe Scraper</h3>\r\n \t\t\t\t\t\t\t\t\t\t</header>\r\n \t\t\t\t\t\t\t\t\t</article>\r\n \t\t\t\t\t\t\t\t</div>\r\n \t\t\t\t\t\t\t\t<div class=\"col-6 col-12-mobile\">\r\n"
+                },
+                {
+                    "date": 1685358976905,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -122,9 +122,9 @@\n \t\t\t\t\t\t\t<h2>Education</h2>\r\n \t\t\t\t\t\t</header>\r\n \t\t\t\t\t\t\r\n \t\t\t\t\t\t<h2 class=\"alt\"><strong>University of California, Riverside</strong> </h2>\r\n-\t\t\t\t\t\t<h3 class=\"alt\"> B.S. Statistics (Statistical Computation), minor Public Policy </h3>\r\n+\t\t\t\t\t\t<h3 class=\"alt\"> B.S. Statistics (Statistical Computation), Minor Public Policy </h3>\r\n \r\n \t\t\t\t\t\t<h3 class=\"alt\"><strong>Computer Science</strong> </h3>\r\n \t\t\t\t\t\t\r\n \t\t\t\t\t\t<ul>\r\n"
                 }
             ],
             "date": 1685316840260,
