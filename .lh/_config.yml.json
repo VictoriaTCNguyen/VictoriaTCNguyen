@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 2,
+            "activePatchIndex": 3,
             "patches": [
                 {
                     "date": 1685366668201,
@@ -16,6 +16,10 @@
                 {
                     "date": 1685366690544,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,4 @@\n+title: filler\n+description: portfolio\n+\n+theme: MINIMAL\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685383108967,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,4 @@\n title: filler\n description: portfolio\n \n-theme: MINIMAL\n-title: [The title of your site]\n-description: [A short description of your site's purpose]\n-\n-theme: MINIMAL\n\\ No newline at end of file\n+theme: MINIMALIST\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1685366668201,
