@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 9,
+            "activePatchIndex": 13,
             "patches": [
                 {
                     "date": 1685316840260,
@@ -44,6 +44,22 @@
                 {
                     "date": 1685358976905,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -122,9 +122,9 @@\n \t\t\t\t\t\t\t<h2>Education</h2>\r\n \t\t\t\t\t\t</header>\r\n \t\t\t\t\t\t\r\n \t\t\t\t\t\t<h2 class=\"alt\"><strong>University of California, Riverside</strong> </h2>\r\n-\t\t\t\t\t\t<h3 class=\"alt\"> B.S. Statistics (Statistical Computation), minor Public Policy </h3>\r\n+\t\t\t\t\t\t<h3 class=\"alt\"> B.S. Statistics (Statistical Computation), Minor Public Policy </h3>\r\n \r\n \t\t\t\t\t\t<h3 class=\"alt\"><strong>Computer Science</strong> </h3>\r\n \t\t\t\t\t\t\r\n \t\t\t\t\t\t<ul>\r\n"
+                },
+                {
+                    "date": 1685359052877,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -167,9 +167,9 @@\n \t\t\t\t\t\t\t\tWhether I'm using spreadsheets to optimize my workout routine or using it to observe consumer habits, I love using data to enhance the way I look at the world.\r\n \t\t\t\t\t\t\t</p>\r\n \r\n \t\t\t\t\t\t\t<p>\r\n-\t\t\t\t\t\t\t\tOutside of data analytics, I love to spend time with my pets, travel, cook, discuss music/film, play video games,\r\n+\t\t\t\t\t\t\t\tOutside of data analytics, I love to spend time with my pets, travel, cook, discuss all things media, play video games,\r\n \t\t\t\t\t\t\t\tbuild keyboards, and live an active lifestyle. \r\n \t\t\t\t\t\t\t</p>\r\n \r\n \t\t\t\t\t\t</div>\r\n"
+                },
+                {
+                    "date": 1685359059437,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -168,9 +168,9 @@\n \t\t\t\t\t\t\t</p>\r\n \r\n \t\t\t\t\t\t\t<p>\r\n \t\t\t\t\t\t\t\tOutside of data analytics, I love to spend time with my pets, travel, cook, discuss all things media, play video games,\r\n-\t\t\t\t\t\t\t\tbuild keyboards, and live an active lifestyle. \r\n+\t\t\t\t\t\t\t\tbuild keyboards, & live an active lifestyle. \r\n \t\t\t\t\t\t\t</p>\r\n \r\n \t\t\t\t\t\t</div>\r\n \t\t\t\t\t</section>\r\n"
+                },
+                {
+                    "date": 1685359080758,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -168,9 +168,9 @@\n \t\t\t\t\t\t\t</p>\r\n \r\n \t\t\t\t\t\t\t<p>\r\n \t\t\t\t\t\t\t\tOutside of data analytics, I love to spend time with my pets, travel, cook, discuss all things media, play video games,\r\n-\t\t\t\t\t\t\t\tbuild keyboards, & live an active lifestyle. \r\n+\t\t\t\t\t\t\t\t & live an active lifestyle. \r\n \t\t\t\t\t\t\t</p>\r\n \r\n \t\t\t\t\t\t</div>\r\n \t\t\t\t\t</section>\r\n"
+                },
+                {
+                    "date": 1685359096987,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -167,9 +167,9 @@\n \t\t\t\t\t\t\t\tWhether I'm using spreadsheets to optimize my workout routine or using it to observe consumer habits, I love using data to enhance the way I look at the world.\r\n \t\t\t\t\t\t\t</p>\r\n \r\n \t\t\t\t\t\t\t<p>\r\n-\t\t\t\t\t\t\t\tOutside of data analytics, I love to spend time with my pets, travel, cook, discuss all things media, play video games,\r\n+\t\t\t\t\t\t\t\tOutside of data analytics, I love to travel, cook, discuss all things media, play video games,\r\n \t\t\t\t\t\t\t\t & live an active lifestyle. \r\n \t\t\t\t\t\t\t</p>\r\n \r\n \t\t\t\t\t\t</div>\r\n"
                 }
             ],
             "date": 1685316840260,
