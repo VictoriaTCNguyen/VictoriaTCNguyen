@@ -113,25 +113,25 @@
 									 the same column and need to be parsed into their own, proper variables. The ‘job_types’ variable had two separate ways of 
 									 distinguishing jobs from each other: full time vs. part time, and contract vs. employee. Other than that, this column was 
 									 nicely formatted and all I needed to do was pull the right substrings from each of them. </p>
-								<img src="images/1g.png" alt="">
+								<img src="images/1g.png" alt="Image">
 								<p>Next, I tackled the locations column, which quickly proved to be the most difficult.  A good chunk of these were just entire
 									 job descriptions pasted in. My first idea was to shave off unwanted entries. As far as I’m aware, most location names 
 									 could be spelled out in 50 characters or less. In addition, if an entire job description was pasted into this column,
 									  there would usually be a title, so I also searched for “Location:” in the longer entries. </p>
-								<img src="images/1h.png" alt="">
+								<img src="images/1h.png" alt="Image">
 								<p>After extracting the location from each of the job entries, I decided to pull the state & zip code from each location. </p>
-								<img src="images/1i.png" alt="">
+								<img src="images/1i.png" alt="Image">
 								<p>I then ran into an unexpected issue. Because state names are entered either by spelling out their full name or by their two 
 									letter abbreviation, I thought I could simply search for any substring containing the abbreviated state names. However,
 									 many job descriptions would use capital letters in one way or another - whether it was the entire job description being 
 									 capitalized or using capitalization to emphasize whole words or titles. Either way, I had to find a way around it. Thus,
 									  I used regex to find the two capital letters together with non-capital characters before and after. 
 								</p>
-								<img src="images/1j.png" alt="">
+								<img src="images/1j.png" alt="Image">
 								<p>Now that the states were sorted, I moved onto the zipcodes. Thankfully, from the previous step, I was able to tinker with 
 									a regex and similarly used one to pull strings containing five consecutive digits. This also kept me from accidentally 
 									pulling any phone numbers that made it into this column. </p>
-								<img src="images/1k.png" alt="">
+								<img src="images/1k.png" alt="Image">
 								<p>The last bulk of my work was fixing the salary column. I had my work set out for me because I could see that it was a 
 									jumble of salaries, hourly wages, vague descriptions of what their compensation might be, or just other benefits that 
 									didn’t help candidates understand what pay they should be expecting. </p>

@@ -64,7 +64,6 @@
 							<header>
 								<h2 class="alt">Hi! I'm <strong>Victoria Nguyen.</strong> </h2>
 								<p>Proficient in R, Python, SQL, & Excel.</p>
-								<p>(Currently under construction!)</p>
 							</header>
 
 							<footer>
@@ -88,58 +87,56 @@
 
 						<div class="center">
 							<div class="col-4 col-12-mobile">
-								<img src="images/1a.png" alt="">
+								<img src="images/1a.png" alt="Image of Kaggle dataset">
 								<p> My goal for this project was to use Pandas and Jupyter Notebooks to push my data cleaning abilities with the messiest 
 									dataset I could find.</p>
-								<img src="images/1b.png" alt="">
+								<img src="images/1b.png" alt="Image of df.info">
 								<p> After a bit of searching, I came across a webscrape on Kaggle that contained 22,000 job listings from the job board, 
 									Monster.com</p>
-								<img src="images/1c.png" alt="">
+								<img src="images/1c.png" alt="Image of job types">
 								<p> The first step was identifying what kind of information I wanted from the dataset - in other words, what it would look 
 									like if it were clean, then coming up ways to extract that information from what is given. </p>
-								<img src="images/1d.png" alt="">
+								<img src="images/1d.png" alt="Image of messy location column">
 								<p> After fixing the easiest column, then comes the hardest one. This column doesn't even look like it has locations in it 
 									at all because it is filled with so many job descriptions. The first step to cleaning this column is to start narrowing 
 									it down. Any actual locations in the column are less than 50 characters long and the locations that are in the long job 
 									descriptions are preceeded by "Location:" so that is where I started from. After pulling each location out of the job 
 									descriptions and getting each properly placed location out into a new column it was time to see what actual information 
 									I could get out of it. I decided to extract the state and zip code.</p>
-								<img src="images/1e.png" alt="">
+								<img src="images/1e.png" alt="Image of giant algorithm">
 								<p>Upon initial investigation, I found that job descriptions could be found in the location and salary columns, locations 
 									could be found in the organization column, some entries had the same information copied into every single column, salaries 
 									were being entered as hourly wages, and some just had useless or nonsensical entries.  </p>
-								<img src="images/1f.png" alt="">
+								<img src="images/1f.png" alt="Image of extracted states">
 								<p>The first issue I decided to tackle was the one I see most commonly in datasets: that multiple variables are being put into
 									 the same column and need to be parsed into their own, proper variables. The ‘job_types’ variable had two separate ways of 
 									 distinguishing jobs from each other: full time vs. part time, and contract vs. employee. Other than that, this column was 
 									 nicely formatted and all I needed to do was pull the right substrings from each of them. </p>
-								<img src="images/1g.png" alt="">
+								<img src="images/1g.png" alt="Image">
 								<p>Next, I tackled the locations column, which quickly proved to be the most difficult.  A good chunk of these were just entire
 									 job descriptions pasted in. My first idea was to shave off unwanted entries. As far as I’m aware, most location names 
 									 could be spelled out in 50 characters or less. In addition, if an entire job description was pasted into this column,
 									  there would usually be a title, so I also searched for “Location:” in the longer entries. </p>
-								<img src="images/1h.png" alt="">
+								<img src="images/1h.png" alt="Image">
 								<p>After extracting the location from each of the job entries, I decided to pull the state & zip code from each location. </p>
-								<img src="images/1i.png" alt="">
+								<img src="images/1i.png" alt="Image">
 								<p>I then ran into an unexpected issue. Because state names are entered either by spelling out their full name or by their two 
 									letter abbreviation, I thought I could simply search for any substring containing the abbreviated state names. However,
 									 many job descriptions would use capital letters in one way or another - whether it was the entire job description being 
 									 capitalized or using capitalization to emphasize whole words or titles. Either way, I had to find a way around it. Thus,
 									  I used regex to find the two capital letters together with non-capital characters before and after. 
 								</p>
-								<img src="images/1j.png" alt="">
+								<img src="images/1j.png" alt="Image">
 								<p>Now that the states were sorted, I moved onto the zipcodes. Thankfully, from the previous step, I was able to tinker with 
 									a regex and similarly used one to pull strings containing five consecutive digits. This also kept me from accidentally 
 									pulling any phone numbers that made it into this column. </p>
-								<img src="images/1k.png" alt="">
+								<img src="images/1k.png" alt="Image">
 								<p>The last bulk of my work was fixing the salary column. I had my work set out for me because I could see that it was a 
 									jumble of salaries, hourly wages, vague descriptions of what their compensation might be, or just other benefits that 
 									didn’t help candidates understand what pay they should be expecting. </p>
 
 								
-								<p>I extracted all entries that mentioned “yearly” and “hourly”, and swapped the hourly salaries that were too outrageous
-									 to be true to yearly salaries, and vice-versa. I then shaved off excess characters to get plain numbers, then converted 
-									 hourly wages to salaries. </p>
+								<p></p>
 								<p></a></p>
 							</div>
 						</div>
