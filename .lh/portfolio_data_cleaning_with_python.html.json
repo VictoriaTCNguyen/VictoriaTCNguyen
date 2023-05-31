@@ -1,0 +1,18 @@
+{
+    "sourceFile": "portfolio_data_cleaning_with_python.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1685539066106,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1685539066106,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <title>Data Cleaning with Python</title>\n  </head>\n\n  <body class=\"is-preload\">\n    In this project my goal was to find and clean the messiest dataset that I could using Pandas in Jupyter Notebooks.\n  </body>\n\n</html>"
+        }
+    ]
+}
