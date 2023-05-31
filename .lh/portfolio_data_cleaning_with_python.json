@@ -1,0 +1,26 @@
+{
+    "sourceFile": "portfolio_data_cleaning_with_python",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1685538906139,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1685538921191,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,12 +7,5 @@\n \n   <body class=\"is-preload\">\n     In this project my goal was to find and clean the messiest dataset that I could using Pandas in Jupyter Notebooks.\n   </body>\n-</html> \n-<!DOCTYPE html>\n-<html lang=\"en\">\n-  <head>\n-    <meta charset=\"utf-8\">\n-    <title>About</title>\n-  </head>\n-</html> \n\\ No newline at end of file\n+\n"
+                },
+                {
+                    "date": 1685538926359,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,4 +8,5 @@\n   <body class=\"is-preload\">\n     In this project my goal was to find and clean the messiest dataset that I could using Pandas in Jupyter Notebooks.\n   </body>\n \n+</html>\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1685538906138,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <title>Data Cleaning with Python</title>\n  </head>\n\n  <body class=\"is-preload\">\n    In this project my goal was to find and clean the messiest dataset that I could using Pandas in Jupyter Notebooks.\n  </body>\n</html> \n<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <title>About</title>\n  </head>\n</html> "
+        }
+    ]
+}
